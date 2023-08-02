@@ -1,33 +1,35 @@
-* {margin: 2px;
-}
-
-body {
-    color:aliceblue;
-    background-color: #504F4F;
+*   {margin: 0px;
+    }
+body 
+    {color:aliceblue;
+    background-color:palevioletred;
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     }
-    
-a:link {
-    color: #f0eaa7;
+.recipes ul
+    {background-color: #504F4F;
+    text-align: center;
+    font-size: 30px;
+    list-style-type: none; /* Remove bullets */
+    margin: 15px auto;
+    padding: 10px;
     }
-
-a:visited {
-    color: aliceblue;
+.country 
+    {text-align: center;
     }
-
-ul.no-bullets {
-        list-style-type: none; /* Remove bullets */
-        padding: 0; /* Remove padding */
-        margin: 0; /* Remove margins */
-      }
-
-
-
-
-
-
-
+h1  
+    {text-align: center;
+    } 
+a:link 
+    {color: #f0eaa7;
+    }
+a:visited 
+    {color: aliceblue;
+    }
+button 
+    {background-color: black ;
+        font-size: 16px;
+    }
 
 
 
