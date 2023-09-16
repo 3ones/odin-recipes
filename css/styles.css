@@ -2,26 +2,75 @@
     }
 body 
     {color:aliceblue;
-    background-color:palevioletred;
+    background-color:rgb(82, 23, 43);
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     }
-.recipes ul
+.container ul
     {background-color: #504F4F;
     text-align: center;
     font-size: 30px;
     list-style-type: none; /* Remove bullets */
     margin: 15px auto;
     padding: 10px;
+
     }
-.country 
-    {text-align: center;
+.recipes { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 25px;
+}
+.wrap {
+    display: flex;
+    align-items: stretch;
+    gap: 25px;
     }
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;     
+      }
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: aliceblue;
+    text-align: center;
+
+      }
+
+li {
+    max-width: 500px;
+
+}
+     
+@media all and (max-width: 800px) {
+        .navigation {
+          justify-content: space-around;
+        }
+      }
+      
+@media all and (max-width: 500px) {
+        .navigation {
+          flex-flow: column wrap;
+          padding: 0;
+        }
+    }
+
+.navigation a:hover {
+    background: #7397c1;
+      }
 h1  
     {text-align: center;
     } 
+h2  
+    {text-align: center;
+    }
 a:link 
-    {color: #f0eaa7;
+    {color:aliceblue;
     }
 a:visited 
     {color: aliceblue;
@@ -30,13 +79,15 @@ button
     {background-color: black ;
         font-size: 16px;
     }
-
-
-
-
-
 /*  This will outline every box
 
 * {border: 2px solid red}
 
 */
+
+
+.country {
+    display: flex;
+    gap: 4px;
+    justify-content: center
+    }
